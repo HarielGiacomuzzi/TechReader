@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0A4FFE1A9BB1A600EA8815 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A4FFD1A9BB1A600EA8815 /* XMLParser.m */; };
+		DB0A50011A9BBAD500EA8815 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A50001A9BBAD500EA8815 /* News.m */; };
 		DB9BFD681A9BAEAB0090D8F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BFD671A9BAEAB0090D8F7 /* main.m */; };
 		DB9BFD6B1A9BAEAB0090D8F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BFD6A1A9BAEAB0090D8F7 /* AppDelegate.m */; };
 		DB9BFD6E1A9BAEAB0090D8F7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BFD6D1A9BAEAB0090D8F7 /* MasterViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0A4FFC1A9BB1A600EA8815 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		DB0A4FFD1A9BB1A600EA8815 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		DB0A4FFF1A9BBAD500EA8815 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DB0A50001A9BBAD500EA8815 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		DB9BFD621A9BAEAB0090D8F7 /* TechReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9BFD661A9BAEAB0090D8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9BFD671A9BAEAB0090D8F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB0A4FFB1A9BB16600EA8815 /* DataControl */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A4FFC1A9BB1A600EA8815 /* XMLParser.h */,
+				DB0A4FFD1A9BB1A600EA8815 /* XMLParser.m */,
+				DB0A4FFF1A9BBAD500EA8815 /* News.h */,
+				DB0A50001A9BBAD500EA8815 /* News.m */,
+			);
+			name = DataControl;
+			sourceTree = "<group>";
+		};
 		DB9BFD591A9BAEAB0090D8F7 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +101,7 @@
 		DB9BFD641A9BAEAB0090D8F7 /* TechReader */ = {
 			isa = PBXGroup;
 			children = (
+				DB0A4FFB1A9BB16600EA8815 /* DataControl */,
 				DB9BFD691A9BAEAB0090D8F7 /* AppDelegate.h */,
 				DB9BFD6A1A9BAEAB0090D8F7 /* AppDelegate.m */,
 				DB9BFD6C1A9BAEAB0090D8F7 /* MasterViewController.h */,
@@ -226,7 +244,9 @@
 			files = (
 				DB9BFD6B1A9BAEAB0090D8F7 /* AppDelegate.m in Sources */,
 				DB9BFD6E1A9BAEAB0090D8F7 /* MasterViewController.m in Sources */,
+				DB0A4FFE1A9BB1A600EA8815 /* XMLParser.m in Sources */,
 				DB9BFD681A9BAEAB0090D8F7 /* main.m in Sources */,
+				DB0A50011A9BBAD500EA8815 /* News.m in Sources */,
 				DB9BFD711A9BAEAB0090D8F7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +440,7 @@
 				DB9BFD8A1A9BAEAB0090D8F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB9BFD8B1A9BAEAB0090D8F7 /* Build configuration list for PBXNativeTarget "TechReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +449,7 @@
 				DB9BFD8D1A9BAEAB0090D8F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
